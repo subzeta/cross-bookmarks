@@ -1,0 +1,63 @@
+* {
+    outline: none;
+}
+
+body {
+    font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+    font-size: 12px;
+    width:400px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background-color: #eaeaea;
+    border-left: 1px solid #ccc;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #aaa;
+}
+
+#status {
+    white-space: pre;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 400px;
+}
+
+#bookmarks {
+}
+    #bookmarks h1 {
+        font-size: 1.1em;
+        padding-bottom: 5px;
+        border-bottom: 1px dotted #ccc;
+    }
+    #bookmarks a {
+        font-size: 1em;
+        color: #062a17;
+        text-decoration: none;
+    }
+    #bookmarks span.keywords {
+        color: #999;
+    }
+
+#update-uptodate, #update-outdated {
+    border-radius: 3px;
+    background-color: #12761a;
+    color: #fff;
+    float:right;
+    border: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.disabled {
+    opacity: 0.3;
+}

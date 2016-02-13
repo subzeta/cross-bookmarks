@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <title>cross-bookmarks</title>
+        <link rel="stylesheet" href="../css/main.css">
+        <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="../js/storer.js"></script>
+        <script src="../js/parser.js"></script>
+        <script src="../js/view.js"></script>
+        <script src="../js/main.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <!-- status -->
+            <div id="status"></div>
+            <!-- filter -->
+            <input type="text" id="filtering" name="filtering" placeholder="Filter..." />
+            <!-- update -->
+            <button id="update-uptodate" class="disabled" disabled>sources are up to date</button>
+            <button id="update-outdated" class="hidden">sources are outdated > update</button>
+            <!-- bookmarks -->
+            <div id="bookmarks"></div>
+        </div>
+    </body>
+</html>
+

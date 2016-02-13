@@ -1,0 +1,26 @@
+{
+  "name": "cross-bookmarks",
+  "authors": [
+    "Sergio Cabrera <subzeta@gmail.com>"
+  ],
+  "description": "A Google Chrome extension to share bookmarks.",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "chrome",
+    "extension",
+    "bookmarks"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0"
+  }
+}
